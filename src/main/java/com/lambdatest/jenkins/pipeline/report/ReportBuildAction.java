@@ -103,7 +103,11 @@ public class ReportBuildAction extends AbstractReportBuildAction {
                 } else {
                   resultJSON.put("browser", sessionDetailNode.get("browser").toString().replaceAll("\"", ""));
                 }
-                resultJSON.put("browserVersion", sessionDetailNode.get("version").toString().replaceAll("\"", ""));
+                if(sessionDetailNode.has("version")) {
+                  resultJSON.put("browserVersion", sessionDetailNode.get("version").toString().replaceAll("\"", ""));
+                } else {
+                  resultJSON.put("browserVersion","1.0");
+                }
                 resultJSON.put("OS", sessionDetailNode.get("platform").toString().replaceAll("\"", ""));
                 resultJSON.put("name", sessionDetailNode.get("name").toString().replaceAll("\"", ""));
                 resultJSON.put("testId", sessionDetailNode.get("test_id").toString().replaceAll("\"", ""));
