@@ -313,13 +313,13 @@ public class MagicPlugBuildWrapper extends BuildWrapper implements Serializable 
 				int result = stopTunnel(buildnumber, build.getWorkspace());
 				if (result<0 && tunnelProcess != null && tunnelProcess.isAlive()){
 					logger.info("Tunnel is still active, forcefully tearing down the tunnel process.");
-					tunnelProcess.destroy();
+					tunnelProcess.destroyForcibly();
 				}
 				logger.info("Tunnel stopped successfully.");
 			} catch (Exception e) {
 				logger.warning("Forcefully Tear Down due to: " + e.getMessage());
 				if (tunnelProcess != null && tunnelProcess.isAlive()) {
-					tunnelProcess.destroy();
+					tunnelProcess.destroyForcibly();
 				}
 			}
 			return super.tearDown(build, listener);
