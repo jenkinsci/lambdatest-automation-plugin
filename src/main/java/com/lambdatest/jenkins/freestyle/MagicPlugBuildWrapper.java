@@ -311,16 +311,15 @@ public class MagicPlugBuildWrapper extends BuildWrapper implements Serializable 
 			try {
 				logger.info("tearDown");
 				int result = stopTunnel(buildnumber, build.getWorkspace());
-		
-				if (result == -1) {
-					logger.info("Tunnel was not active.");
-				} else {
-					logger.info("Tunnel stopped successfully.");
+				if (result<0 && tunnelProcess != null && tunnelProcess.isAlive()){
+					logger.info("Tunnel is still active, forcefully tearing down the tunnel process.");
+					tunnelProcess.destroyForcibly();
 				}
+				logger.info("Tunnel stopped successfully.");
 			} catch (Exception e) {
 				logger.warning("Forcefully Tear Down due to: " + e.getMessage());
 				if (tunnelProcess != null && tunnelProcess.isAlive()) {
-					tunnelProcess.destroy();
+					tunnelProcess.destroyForcibly();
 				}
 			}
 			return super.tearDown(build, listener);
@@ -366,7 +365,7 @@ public class MagicPlugBuildWrapper extends BuildWrapper implements Serializable 
 				return 10;
 			} else {
 				logger.info("Tunnel Stopped");
-				return -1;
+				return 0;
 			}
 		}
 		
