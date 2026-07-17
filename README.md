@@ -1,4 +1,10 @@
-<img alt="testmu_logo" src="./docs/images/testmu_logo_color.svg">
+<a>
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./docs/images/testmu_black.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="./docs/images/testmu_white.svg">
+        <img alt="TestMu AI (formerly LambdaTest)">
+    </picture>
+</a>
 
 ## Overview
 
