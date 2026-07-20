@@ -18,7 +18,7 @@ Selenium test suite.]{style="color: rgb(74,74,74);"}
 **TestMu AI (Formerly TestMu AI) Overview**
 -----------------------
 
-[TestMu AI (Formerly TestMu AI) is one of the fastest growing cross browser testing platform
+[TestMu AI (Formerly LambdaTest) is one of the fastest growing cross browser testing platform
 that offers both manual and automation cross browser testing features.
 Used by more than 60,000 organizations across the globe,
 ]{style="color: rgb(0,0,0);"}[TestMu AI can help you test your website
@@ -33,7 +33,7 @@ environment of your choice freeing the users from the hassle of setting
 up browser compatibility testing environments and testing
 infrastructure. ]{style="color: rgb(0,0,0);"}[To start using
 TestMu AI, ]{style="color: rgb(0,0,0);"}[[signup for a
-freemium](https://accounts.testmuai.com/register)]{style="color: rgb(51,102,255);"}[ account
+freemium](https://accounts.lambdatest.com/register)]{style="color: rgb(51,102,255);"}[ account
 now and get a lifetime free access of their testing
 platform. ]{style="color: rgb(0,0,0);"}
 
@@ -82,7 +82,7 @@ installation.]{style="color: rgb(74,74,74);"}
   [Sometimes your recently installed plugins fail to synchronize with your available plugins on Jenkins. In case if you don't find TestMu AI plugin under your available plugins, then you could force Jenkins to refresh the list by simply clicking the ]{style="color: rgb(74,74,74);"}**Check Now**[ button to fetch latest plugins from the Jenkins update centre.]{style="color: rgb(74,74,74);"}
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Configure TestMu AI Credentials Using Jenkins UI** {#configure-TestMu AI-credentials-using-jenkins-ui style="text-align: left;"}
+**Configure TestMu AI Credentials Using Jenkins UI** {#configure-lambdatest-using-jenkins-ui style="text-align: left;"}
 -----------------------------------------------------
 
 1.  On the Home page of Jenkins click **Credentials**.
@@ -115,7 +115,7 @@ installation.]{style="color: rgb(74,74,74);"}
     ![](docs/images/b50725b695e7c85860c7ae1c1394ef106b5b4330.png){.confluence-embedded-image
     .confluence-external-resource}]{style="color: rgb(74,74,74);"}
 
-**Configure TestMu AI Tunnel For Local Testing** {#configure-TestMu AI-tunnel-for-local-testing style="text-align: left;"}
+**Configure TestMu AI Tunnel For Local Testing** {#configure-lambdatest-tunnel-for-local-testing style="text-align: left;"}
 -------------------------------------------------
 
 **Lambda Tunnel **is a feature of TestMu AI that allows you to perform
