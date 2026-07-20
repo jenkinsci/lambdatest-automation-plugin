@@ -15,7 +15,7 @@ Selenium test suite.]{style="color: rgb(74,74,74);"}
   This plugin allows you to integrate with TestMu AI (Formerly LambdaTest).
   ---------------------------------------------------------------------------------------
 
-**TestMu AI (Formerly TestMu AI) Overview**
+**TestMu AI (Formerly LambdaTest) Overview**
 -----------------------
 
 [TestMu AI (Formerly LambdaTest) is one of the fastest growing cross browser testing platform
@@ -33,7 +33,7 @@ environment of your choice freeing the users from the hassle of setting
 up browser compatibility testing environments and testing
 infrastructure. ]{style="color: rgb(0,0,0);"}[To start using
 TestMu AI, ]{style="color: rgb(0,0,0);"}[[signup for a
-freemium](https://accounts.lambdatest.com/register)]{style="color: rgb(51,102,255);"}[ account
+freemium](https://www.testmuai.com/register/)]{style="color: rgb(51,102,255);"}[ account
 now and get a lifetime free access of their testing
 platform. ]{style="color: rgb(0,0,0);"}
 
