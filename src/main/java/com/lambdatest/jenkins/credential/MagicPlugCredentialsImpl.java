@@ -73,7 +73,7 @@ public class MagicPlugCredentialsImpl extends BaseStandardCredentials implements
 
 		@Override
 		public String getDisplayName() {
-			return "LAMBDATEST Credentials";
+			return "TestMu AI (Formerly LambdaTest) Credentials";
 		}
 
 		@Override

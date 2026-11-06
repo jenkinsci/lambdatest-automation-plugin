@@ -4,8 +4,8 @@ import jenkins.model.Jenkins;
 
 public interface Constant {
 
-	String LT_REPORT_DISPLAY_NAME = "LambdaTest Report";
-	String LT_APP_AUTOMATION_REPORT_DISPLAY_NAME = "LambdaTest App Automation Report";
+	String LT_REPORT_DISPLAY_NAME = "TestMu AI Report";
+	String LT_APP_AUTOMATION_REPORT_DISPLAY_NAME = "TestMu AI App Automation Report";
 	String LT_REPORT_URL = "reportLambdaTest";
 	String LT_ICON_FILE_NAME = Jenkins.RESOURCE_PATH + "/plugin/lambdatest-automation/images/logo.png";
 
