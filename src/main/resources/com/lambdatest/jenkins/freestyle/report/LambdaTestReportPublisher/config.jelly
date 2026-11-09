@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form" xmlns:l="/lib/layout">
-    This step will generate LambdaTest Report by utilising the build name from the environment variable LT_BUILD_NAME set by the LambdaTest plugin.
+    This step will generate TestMu AI Report by utilising the build name from the environment variable LT_BUILD_NAME set by the TestMu AI plugin.
 </j:jelly>

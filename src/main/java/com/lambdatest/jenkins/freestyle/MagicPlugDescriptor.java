@@ -46,7 +46,7 @@ public class MagicPlugDescriptor extends BuildWrapperDescriptor {
 
 	@Override
 	public String getDisplayName() {
-		return "LAMBDATEST";
+		return "TestMu AI (Formerly LambdaTest)";
 	}
 
 	public MagicPlugDescriptor() {

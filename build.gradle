@@ -31,9 +31,9 @@ plugins {
 
 group = 'org.jenkins-ci.plugins'
 
-version = '1.21.9'
+version = '1.22.0'
 
-description = 'LambdaTest Plugin is used to run automated selenium tests on LambdaTest Cloud'
+description = 'TestMu AI (Formerly LambdaTest) plugin for running automated Selenium tests and Kane CLI tests on TestMu AI'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -46,7 +46,7 @@ jenkinsPlugin {
     shortName = 'lambdatest-automation'
 
     // human-readable name of plugin                                               
-    displayName = 'LambdaTest Automation Plugin'
+    displayName = 'TestMu AI (Formerly LambdaTest) Automation Plugin'
     
     // human-readable name of plugin 
     //name = 'LambdaTest Automation Plugin'

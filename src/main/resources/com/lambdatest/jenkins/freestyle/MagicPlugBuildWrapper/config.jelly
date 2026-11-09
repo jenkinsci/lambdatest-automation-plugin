@@ -18,7 +18,7 @@
   -->
 
 	<f:block>
-		<f:validateButton title="Ping LambdaTest" progress="${%Checking availability of API...}" method="ping" />
+		<f:validateButton title="Ping TestMu AI" progress="${%Checking availability of API...}" method="ping" />
 		<!--<f:entry name="choice" title="Choose Environment" field="choice">
     		<select name="choice">
     			<option value="beta">beta</option>
@@ -102,7 +102,7 @@
 		 </f:optionalBlock>
 	</f:block>
 	<f:block>
-			<f:entry title="LambdaTest Credentials" field="credentialsId">
+			<f:entry title="TestMu AI Credentials" field="credentialsId">
 				<c:select default="${instance.credentialsId()}"/>
 			</f:entry>
 	</f:block>

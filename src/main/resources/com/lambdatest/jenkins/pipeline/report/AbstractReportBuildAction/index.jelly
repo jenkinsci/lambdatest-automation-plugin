@@ -90,15 +90,15 @@
             <j:if test="${(it.result.size() == 0)}">
                 <div class="new-container">
                     <div class="report-row">
-                        <p class="no-report-para"><strong class="strong-font-custom">No LambdaTest Report Available</strong></p>
+                        <p class="no-report-para"><strong class="strong-font-custom">No TestMu AI Report Available</strong></p>
                         <br/>
-                        <p class="no-report-para">LambdaTest report could not be generated for this build. Please ensure that:</p>
+                        <p class="no-report-para">TestMu AI report could not be generated for this build. Please ensure that:</p>
                         <br/>
                         <ul class="bullet-points">
-                            <li class="bullet-item">You have set valid LambdaTest credentials via LambdaTest Plugin.</li>
+                            <li class="bullet-item">You have set valid TestMu AI credentials via the TestMu AI plugin.</li>
                             <li class="bullet-item">You are using ‘LT_BUILD_NAME’ environment variable to set Build name <code>capabilities[‘build’]</code> in test cases.</li>
                             <li class="bullet-item">Refer to the <a href="https://www.lambdatest.com/support/docs/jenkins-with-lambdatest/" target="_blank"> Automate Jenkins documentation</a>
-                            for more details or else visit <a href="https://automation.lambdatest.com/" target="_blank"> LambdaTest Automation Dashboard</a> to see test results.</li>
+                            for more details or else visit <a href="https://automation.lambdatest.com/" target="_blank"> TestMu AI Automation Dashboard</a> to see test results.</li>
                         </ul>
                     </div>
                 </div>
