@@ -118,7 +118,9 @@ dependencies {
     
 
 	implementation 'org.jenkins-ci.plugins:matrix-project:1.4'
-    implementation 'org.jenkinsci.plugins:git:1.1.25'
+    implementation('org.jenkinsci.plugins:git:1.1.25') {
+        exclude group: 'org.eclipse.jgit', module: 'org.eclipse.jgit'
+    }
     implementation 'org.jenkins-ci.plugins:credentials:2.1.10'
 	optionalJenkinsPlugins 'org.jenkins-ci.plugins:ant:1.2'
 	//jenkinsTest 'org.jenkins-ci.main:maven-plugin:2.17'
